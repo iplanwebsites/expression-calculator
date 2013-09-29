@@ -1,0 +1,70 @@
+/* CSS declarations go here */
+
+body{
+  background:#eee;
+  
+}
+
+body, input {
+   /* font-size:30px;*/
+    font-family: Helvetica, Arial, Mono, Courrier, "Lucida Console";
+    font-family: 'Exo', sans-serif;
+}
+input#target {
+    border:none;
+    font-weight: 100;
+    margin-top:50px;
+    padding:50px;
+    box-shadow:none;
+    font-size:50px;
+    letter-spacing: 5px;
+}
+form.valid {
+    color:#333;
+}
+form.error {
+    color:#f00;
+}
+form #lastWorking {
+    opacity:0;
+}
+form.error #lastWorking {
+    opacity:1;
+}
+form.error #response {
+    opacity:0.5;
+}
+#response {
+    font-weight: 100;
+    font-size:95px; 
+   /* text-align:center;*/
+}
+#lastWorking {
+    color:#aaa;
+    font-size:16px;
+}
+
+#equal{
+  padding:30px;
+  text-align:center;;
+  height:100px; /* static */
+}
+
+button.example{
+  margin-bottom:5px;
+  opacity:0.2;
+}
+button.example:hover{ 
+  opacity:1;
+}
+
+
+#foot{
+  padding:30px 0;
+  position:absolute;
+  bottom:0;
+  width:100%;
+  background:#333;
+  color:#fff;
+  
+}

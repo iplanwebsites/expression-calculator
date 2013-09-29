@@ -1,0 +1,15 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "bootstrap3-less": {}
+    },
+    "packages": {
+      "bootstrap3-less": {
+        "git": "https://github.com/eprochasson/bootstrap3-less",
+        "tag": "v0.1.1",
+        "commit": "82d3e32b6a44bad7bd439b9e02ce33161e58996d"
+      }
+    }
+  }
+}
