@@ -11,16 +11,14 @@ body, input {
     font-family: 'Exo', sans-serif;
 }
 input#target {
-    border:none;
+   
     font-weight: 100;
-    margin-top:50px;
-     
+    margin-top:50px; 
     box-shadow:none;
     font-size:50px;
-    line-height:80px;
-    
+    line-height:80px; 
     height: 104px;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
 }
 form.valid {
     color:#333;
@@ -28,6 +26,10 @@ form.valid {
 form.error {
     color:#f00;
 }
+form.error input#target:focus{
+  border-color:#f33;
+}
+
 form #lastWorking {
     opacity:0;
 }
