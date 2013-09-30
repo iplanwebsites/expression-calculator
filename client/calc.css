@@ -14,9 +14,12 @@ input#target {
     border:none;
     font-weight: 100;
     margin-top:50px;
-    padding:50px;
+     
     box-shadow:none;
     font-size:50px;
+    line-height:80px;
+    
+    height: 104px;
     letter-spacing: 5px;
 }
 form.valid {
